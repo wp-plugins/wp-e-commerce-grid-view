@@ -8,6 +8,9 @@ function wpsc_gridview_init() {
 // Add language
 add_action('init', 'wpsc_gridview_init');
 
+// Add text on right of Visit the plugin on Plugin manager page
+add_filter( 'plugin_row_meta', array('WPSC_GridView_Hook_Filter', 'plugin_extra_links'), 10, 2 );
+
 // Notices upgrade to PRO version to all pages in dashboard
 add_action('admin_notices', array('WPSC_GridView_Hook_Filter', 'wpsc_gridview_upgrade_notice') );
 

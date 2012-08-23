@@ -11,6 +11,7 @@
  * product_display_list();
  * product_display_grid();
  * wpsc_gridview_upgrade_notice();
+ * plugin_extra_links()
  */
 class WPSC_GridView_Hook_Filter {
 	
@@ -188,9 +189,18 @@ class WPSC_GridView_Hook_Filter {
 		if (!isset($_SESSION['hide-wpsc-gridview-upgrade-notice'])) {
 			$html = '<style>#wpsc_gridview_upgrade_notice { background: url("'.WPSC_GRID_VIEW_URL.'/assets/images/logo_a3blue.png") no-repeat scroll 0px 6px;text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); padding:8px 18px 8px 36px;position:relative;}#wpsc_gridview_upgrade_notice a.hide{color:#FF0808;float:right;text-decoration:none;position:absolute;top:0;right:0;line-height:24px;padding:2px 8px;font-size:20px;text-align:center}</style>';
 		
-			$html .= '<div class="updated"><div id="wpsc_gridview_upgrade_notice">'.__('Congralutaions WP e-Commerce Grid View Lite is activated. Get perfect product thumbnail image scaling on your product grid view pages with the easy and quick', 'wpsc_gridview').' <strong>$5</strong> <a target="_blank" href="http://a3rev.com/products-page/wp-e-commerce/wp-e-commerce-grid-view/">'.__('Pro upgrade', 'wpsc_gridview').'</a>. <a class="hide" href="'.add_query_arg('hide-wpsc-gridview-upgrade-notice', 'true').'">&times;</a></div></div>';
+			$html .= '<div class="updated"><div id="wpsc_gridview_upgrade_notice">'.__("WP e-Commerce Grid View Lite is active and looking a treat. We've detected that your product image thumbnails are not scaled to size. Upgrade to", 'wpsc_gridview').' <a target="_blank" href="http://a3rev.com/products-page/wp-e-commerce/wp-e-commerce-grid-view/">'.__(' Grid View PRO', 'wpsc_gridview').'</a> '.__('to fix that.', 'wpsc_gridview').' <a class="hide" href="'.add_query_arg('hide-wpsc-gridview-upgrade-notice', 'true').'">&times;</a></div></div>';
 			echo $html;	
 		}
+	}
+	
+	function plugin_extra_links($links, $plugin_name) {
+		if ( $plugin_name != WPSC_GRID_VIEW_NAME) {
+			return $links;
+		}
+		$links[] = '<a href="http://docs.a3rev.com/user-guides/wp-e-commerce/wpec-grid-view/" target="_blank">'.__('Documentation', 'wpsc_gridview').'</a>';
+		$links[] = '<a href="http://a3rev.com/products-page/wp-e-commerce/wp-e-commerce-grid-view/#help" target="_blank">'.__('Support', 'wpsc_gridview').'</a>';
+		return $links;
 	}
 }
 ?>

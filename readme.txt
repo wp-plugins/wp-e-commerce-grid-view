@@ -7,37 +7,36 @@ Stable tag: 1.0.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-WP e-Commerce Grid View PRO automatically activates the WP e-Commerce Grid View feature and scales your product feature thumbnail images and Category thumbnail images. 
+WP e-Commerce Grid View Lite automatically activates the WP e-Commerce Grid View feature. 
   
 == Description ==
 
-Install WP e-Commerce Grid View PRO to showcase your products <strong>using a grid view layout</strong>. Grid view gives your front end user a greatly enhanced browsing and shopping experience on your site. The plugin automatically activates grid view functionality on WP e-Commerce when installed and activated.
+Install WP e-Commerce Grid View to showcase your products <strong>using a grid view layout</strong>. Grid view gives your front end user a greatly enhanced browsing and shopping experience on your site. The plugin automatically activates the native grid view functionality on WP e-Commerce when installed and activated.
 
 [youtube http://www.youtube.com/watch?v=ujEclHWN8vo]
 
 * WP e-Commerce Grid View has no settings, just install and activated.
-* Works with any theme
+* Works with any theme.
 
 = Cross Browser Compatibility =
 
 WP e-Commerce Grid View has been tested on the default WordPress themes Twenty Ten and Twenty Eleven and it is tested 100% compatible with all browsers. As long as your theme is compatible with a browser Grid View will show true. 
 
-= Features =
+= Pro Version Upgrade =
 
-* Auto activates the grid view feature on WP e-Commerce
+For those who want more control there is a PRO Version upgrade. Features include:
 
-Image Scaling
-
-* WP e-Commerce does not support scaling Grid View product thumbnail images to the grid view thumbnail place marker dimensions. It shows a cropped and often distorted part of the image and looks ugly. * WP e-Commerce Grid View Pro fixes this for you by auto scales the image products feature image thumbnails. 
+* WP e-Commerce does not support scaling Grid View product thumbnail images to the grid view thumbnail place marker dimensions. It shows a cropped and often distorted part of the image and looks ugly. 
+* WP e-Commerce Grid View Pro fixes this for you by auto scales the image products feature image thumbnails. 
 * It does not matter what size or dimensions the product feature image is - Grid View Pro automatically scales it to show the whole image inside the thumbnail holder - with no distortion.
-* Images are scaled from the centre of the frame for a great display.
-* Auto scales Product Category thumbnail images. 
+* Images are scaled from the centre of the frame for a great display. 
+
 
 = Plugin Resources =
 
 Find detailed step-by-step Grid View set up instructions in the plugins documentation on the a3rev wiki.
 
-[Plugin Home Page](http://a3rev.com/products-page/wp-e-commerce/wp-e-commerce-grid-view/) |
+[PRO Version](http://a3rev.com/products-page/wp-e-commerce/wp-e-commerce-grid-view/) |
 [Documentation](http://docs.a3rev.com/user-guides/wp-e-commerce/wpec-grid-view/) |
 [Support](http://a3rev.com/products-page/wp-e-commerce/wp-e-commerce-grid-view/#help)
 
@@ -52,14 +51,9 @@ Find detailed step-by-step Grid View set up instructions in the plugins document
  
 = Automatic installation =
 
-Note: If you are upgrading from the lite version you should deactivate the Lite version before installing the Pro version. 
+Automatic installation is the easiest option as WordPress handles the file transfers itself and you don't even need to leave your web browser. To do an automatic install of WP e-Commerce Grid View, log in to your WordPress admin panel, navigate to the Plugins menu and click Add New. 
 
-After purchase you'll get an email with a session key , authorization code and a link to the plugins download centre. On that page enter the session key to unlock the secure download centre. Click the Download link and save the Pro version zip file to your computer. 
-
-Automatic installation is the easiest option as WordPress handles the file transfers itself and you don't even need to leave your web browser. To do an automatic install of WP e-Commerce Grid View, log in to your WordPress admin panel, navigate to the Plugins menu and click Add New.
-
-Click the 'upload' link and then the browse Button. Find the zip file on your computer and click on it to highlight it and click 'open'. Click install and WordPress will do it all for you. You'll then either be taken to the authorization page (if not on your wp plugin dashboard you will see the 'Authorization key' link on the plugins description. Enter your Authorization code and click verify and your plugin will be activated.
-
+In the search field type "WP e-Commerce Grid View" and click Search Plugins. Once you have found our plugin you can install it by simply clicking Install Now. After clicking that link you will be asked if you are sure you want to install the plugin. Click yes and WordPress will automatically complete the installation. 
 
 = Manual installation =
 
@@ -79,7 +73,7 @@ The manual installation method involves downloading our plugin and uploading it 
 
 1. Install and activate the plugin
 
-2. Go to Settings > Store > Presentation tab > Product page Settings
+2. Go to Settings > Store > Presentation tab > Product Page Settings
 
 3. Select Grid View and your Grid View Settings.
  
@@ -95,20 +89,19 @@ You can use this plugin only when you have installed the WP e-Commerce plugin.
  
 == Support ==
 
-Support and access to this plugin documents are available from the [HELP tab](http://a3rev.com/products-page/wp-e-commerce/wp-e-commerce-grid-view/#help) on the Pro Versions Home page.
+Support is available from the [HELP tab](http://a3rev.com/products-page/wp-e-commerce/wp-e-commerce-grid-view/#help) on the Pro Versions Home page.
 
 == Changelog ==
 
 = 1.0.1 - 2012/08/23 =
 
-* Feature - Pro version now supports scaling Category thumbnail images
 * Tweak - Added Plugin description Documentation | Support links and updated description
 * Feature - Created plugin documentation on the a3rev wiki. Includes detailed tutorial on configuring WP e-Commerce grid view settings.
+* Feature - Pro version now supports scaling Category thumbnail images
 * Tweak - Updated wordpress.prg description with more plugin information.
-* Tweak - Created Github repository and commit Pro Version files. 
+* Tweak - Created Github repository for Pro Version files. 
 
 = 1.0 - 2012/07/23 =
-
 * Initial release.
 
   

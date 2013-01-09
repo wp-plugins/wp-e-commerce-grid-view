@@ -1,9 +1,10 @@
 <?php
 /*
 Plugin Name: WP e-Commerce Grid View LITE
-Description:  WP e-Commerce Grid View Lite automatically activates the WP e-Commerce grid view feature.
-Version: 1.0.1
-Author: A3 Revolution Software Development team
+Plugin URI: http://a3rev.com/shop/wp-e-commerce-grid-view/
+Description: WP e-Commerce Grid View Pro automatically activates the WP e-Commerce grid view feature. It also scales all product thumbnail images in grid view for a flawless product category page presentation.
+Version: 1.0.2
+Author: A3 Revolution
 Author URI: http://www.a3rev.com/
 License: GPLv2 or later
 */
@@ -18,13 +19,6 @@ License: GPLv2 or later
 	Gympie 4570
 	QLD Australia
 */
-
-/*
-== Changelog ==
-
-= 1.0.0 - 12/07/2012 =
-* First working release of the modification
-*/
 ?>
 <?php
 define( 'WPSC_GRID_VIEW_FILE_PATH', dirname(__FILE__) );
@@ -33,6 +27,7 @@ define( 'WPSC_GRID_VIEW_FOLDER', dirname(plugin_basename(__FILE__)) );
 define( 'WPSC_GRID_VIEW_NAME', plugin_basename(__FILE__) );
 define( 'WPSC_GRID_VIEW_URL', WP_CONTENT_URL.'/plugins/'.WPSC_GRID_VIEW_FOLDER );
 define( 'WPSC_GRID_VIEW_DIR', WP_CONTENT_DIR.'/plugins/'.WPSC_GRID_VIEW_FOLDER );
+define( 'WPSC_GRID_VIEW_IMAGES_URL',  WPSC_GRID_VIEW_URL . '/assets/images' );
 
 include 'classes/class-wpsc-gridview-hook-filter.php';
 include 'admin/wpsc-gridview-admin.php';

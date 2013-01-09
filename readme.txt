@@ -2,8 +2,8 @@
 Contributors: a3rev, A3 Revolution Software Development team
 Tags: WP e-Commerce Grid View, WP e-Commerce, WP e-Commerce Product Pages, e-commerce,  wordpress ecommerce
 Requires at least: 3.3
-Tested up to: 3.4.1
-Stable tag: 1.0.1
+Tested up to: 3.5
+Stable tag: 1.0.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -36,9 +36,9 @@ For those who want more control there is a PRO Version upgrade. Features include
 
 Find detailed step-by-step Grid View set up instructions in the plugins documentation on the a3rev wiki.
 
-[PRO Version](http://a3rev.com/products-page/wp-e-commerce/wp-e-commerce-grid-view/) |
+[PRO Version](http://a3rev.com/shop/wp-e-commerce-grid-view/) |
 [Documentation](http://docs.a3rev.com/user-guides/wp-e-commerce/wpec-grid-view/) |
-[Support](http://a3rev.com/products-page/wp-e-commerce/wp-e-commerce-grid-view/#help)
+[Support](http://a3rev.com/shop/wp-e-commerce-grid-view/#tab-reviews)
 
 
 == Installation ==
@@ -89,9 +89,14 @@ You can use this plugin only when you have installed the WP e-Commerce plugin.
  
 == Support ==
 
-Support is available from the [HELP tab](http://a3rev.com/products-page/wp-e-commerce/wp-e-commerce-grid-view/#help) on the Pro Versions Home page.
+Support is available from the [HELP tab](http://a3rev.com/shop/wp-e-commerce-grid-view/#tab-reviews) on the Pro Versions Home page.
 
 == Changelog ==
+
+= 1.0.2 - 2013/01/09 =
+
+* Tweak: Updated Support and Pro Version link URL's on wordpress.org description, plugins and plugins dashboard. Links were returning 404 errors since the launch of the all new a3rev.com mobile responsive site as the base e-commerce permalinks is changed.
+
 
 = 1.0.1 - 2012/08/23 =
 

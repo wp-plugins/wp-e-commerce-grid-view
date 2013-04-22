@@ -199,7 +199,7 @@ class WPSC_GridView_Hook_Filter {
 			return $links;
 		}
 		$links[] = '<a href="http://docs.a3rev.com/user-guides/wp-e-commerce/wpec-grid-view/" target="_blank">'.__('Documentation', 'wpsc_gridview').'</a>';
-		$links[] = '<a href="http://a3rev.com/shop/wp-e-commerce-grid-view/#tab-reviews" target="_blank">'.__('Support', 'wpsc_gridview').'</a>';
+		$links[] = '<a href="http://a3rev.com/shop/wp-e-commerce-grid-view/#help_tab" target="_blank">'.__('Support', 'wpsc_gridview').'</a>';
 		return $links;
 	}
 }

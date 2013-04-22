@@ -2,8 +2,8 @@
 Contributors: a3rev, A3 Revolution Software Development team
 Tags: WP e-Commerce Grid View, WP e-Commerce, WP e-Commerce Product Pages, e-commerce,  wordpress ecommerce
 Requires at least: 3.3
-Tested up to: 3.5
-Stable tag: 1.0.2
+Tested up to: 3.5.1
+Stable tag: 1.0.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -38,7 +38,7 @@ Find detailed step-by-step Grid View set up instructions in the plugins document
 
 [PRO Version](http://a3rev.com/shop/wp-e-commerce-grid-view/) |
 [Documentation](http://docs.a3rev.com/user-guides/wp-e-commerce/wpec-grid-view/) |
-[Support](http://a3rev.com/shop/wp-e-commerce-grid-view/#tab-reviews)
+[Support](http://a3rev.com/shop/wp-e-commerce-grid-view/#help_tab)
 
 
 == Installation ==
@@ -89,17 +89,19 @@ You can use this plugin only when you have installed the WP e-Commerce plugin.
  
 == Support ==
 
-Support is available from the [HELP tab](http://a3rev.com/shop/wp-e-commerce-grid-view/#tab-reviews) on the Pro Versions Home page.
+Support is available from the [HELP tab](http://a3rev.com/shop/wp-e-commerce-grid-view/#help_tab) on the Pro Versions Home page.
 
 == Changelog ==
 
-= 1.0.2 - 2013/01/09 =
+= 1.0.3 - 2013/04/22 =
+* Feature: Added when install and activate plugin link redirects to the Store > Presentation options page where the WP e-Commerce Grid View settings are  instead of the wp-plugins dashboard which has caused confusion as users do not realize that WP Grid View has no settings.
+* Compatibility: Tested all plugin code 100% compatible with new WP e-Commerce version 3.8.10
+* Tweak: Updated some 404 links from plugins readme and dashboard.
 
+= 1.0.2 - 2013/01/09 =
 * Tweak: Updated Support and Pro Version link URL's on wordpress.org description, plugins and plugins dashboard. Links were returning 404 errors since the launch of the all new a3rev.com mobile responsive site as the base e-commerce permalinks is changed.
 
-
 = 1.0.1 - 2012/08/23 =
-
 * Tweak - Added Plugin description Documentation | Support links and updated description
 * Feature - Created plugin documentation on the a3rev wiki. Includes detailed tutorial on configuring WP e-Commerce grid view settings.
 * Feature - Pro version now supports scaling Category thumbnail images
@@ -109,4 +111,8 @@ Support is available from the [HELP tab](http://a3rev.com/shop/wp-e-commerce-gri
 = 1.0 - 2012/07/23 =
 * Initial release.
 
-  
+
+== Upgrade Notice ==
+
+= 1.0.3 =
+Important upgrade! Install now to ensure this plugin continues to work when you upgrade WP e-Commerce to new version 3.8.10

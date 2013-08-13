@@ -2,8 +2,8 @@
 Contributors: a3rev, A3 Revolution Software Development team
 Tags: WP e-Commerce Grid View, WP e-Commerce, WP e-Commerce Product Pages, e-commerce,  wordpress ecommerce
 Requires at least: 3.3
-Tested up to: 3.5.1
-Stable tag: 1.0.3
+Tested up to: 3.6
+Stable tag: 1.0.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -38,7 +38,7 @@ Find detailed step-by-step Grid View set up instructions in the plugins document
 
 [PRO Version](http://a3rev.com/shop/wp-e-commerce-grid-view/) |
 [Documentation](http://docs.a3rev.com/user-guides/wp-e-commerce/wpec-grid-view/) |
-[Support](http://a3rev.com/shop/wp-e-commerce-grid-view/#help_tab)
+[Support](http://wordpress.org/support/plugin/wp-e-commerce-grid-view/)
 
 
 == Installation ==
@@ -89,9 +89,16 @@ You can use this plugin only when you have installed the WP e-Commerce plugin.
  
 == Support ==
 
-Support is available from the [HELP tab](http://a3rev.com/shop/wp-e-commerce-grid-view/#help_tab) on the Pro Versions Home page.
+Support is available from the [Support tab](http://wordpress.org/support/plugin/wp-e-commerce-grid-view/) on the Pro Versions Home page.
 
 == Changelog ==
+
+= 1.0.4 - 2013/08/13 =	 
+* Tweaks : 
+	* Now just include grid view style when viewing shop page or category page.   
+	* Tested for full compatibility with WordPress v3.6.0
+	* Added PHP Public Static to functions in Class. Done so that PHP Public Static warnings don't show in DE_BUG mode.
+	* Updated the plugins support links to the plugins WordPress support forum.
 
 = 1.0.3 - 2013/04/22 =
 * Feature: Added when install and activate plugin link redirects to the Store > Presentation options page where the WP e-Commerce Grid View settings are  instead of the wp-plugins dashboard which has caused confusion as users do not realize that WP Grid View has no settings.
@@ -113,6 +120,9 @@ Support is available from the [HELP tab](http://a3rev.com/shop/wp-e-commerce-gri
 
 
 == Upgrade Notice ==
+
+= 1.0.4 =
+Upgrade now for full compatibility with WordPress v3.6.0 and WP e-Commerce 3.8.12.1 plus 4 Tweaks.
 
 = 1.0.3 =
 Important upgrade! Install now to ensure this plugin continues to work when you upgrade WP e-Commerce to new version 3.8.10

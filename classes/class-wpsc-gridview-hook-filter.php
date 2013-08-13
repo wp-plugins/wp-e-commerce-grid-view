@@ -13,9 +13,14 @@
  * wpsc_gridview_upgrade_notice();
  * plugin_extra_links()
  */
-class WPSC_GridView_Hook_Filter {
+class WPSC_GridView_Hook_Filter
+{
 	
-	function wpsc_grid_view_styles() {
+	public static function wpsc_grid_view_styles() {
+		global $wp_query;
+		if ( 'wpsc-product' == $wp_query->post->post_type && !is_archive() && $wp_query->post_count <= 1 ) return;
+		if ( !is_products_page() && !is_tax( 'wpsc_product_category' ) && !is_tax('product_tag') ) return;
+		
 		$wpsc_gc_view_mode = get_option('product_view');
 		//wp_enqueue_style( 'wpsc-gold-cart', WPSC_GRID_VIEW_URL . '/assets/css/gold_cart.css' );
 		if ( $wpsc_gc_view_mode == 'grid' ){
@@ -24,7 +29,11 @@ class WPSC_GridView_Hook_Filter {
 		}
 	}
 	
-	function wpsc_grid_custom_styles() {
+	public static function wpsc_grid_custom_styles() {
+		global $wp_query;
+		if ( 'wpsc-product' == $wp_query->post->post_type && !is_archive() && $wp_query->post_count <= 1 ) return;
+		if ( !is_products_page() && !is_tax( 'wpsc_product_category' ) && !is_tax('product_tag') ) return;
+		
 		$items_per_row = get_option( 'grid_number_per_row' );
 		$wpsc_gc_view_mode = get_option('product_view');
 		if ( $wpsc_gc_view_mode != 'grid' ) return;
@@ -47,13 +56,13 @@ class WPSC_GridView_Hook_Filter {
 		}
 	}
 	
-	function product_display_grid($product_list, $group_type, $group_sql = '', $search_sql = '') {
+	public static function product_display_grid($product_list, $group_type, $group_sql = '', $search_sql = '') {
 		global $wpdb;
 		/*
 		All this does is sit here so that it can be detected by the gold files to turn grid view on.
 		*/  
 	}  
-	function product_display_list($product_list, $group_type, $group_sql = '', $search_sql = '') {
+	public static function product_display_list($product_list, $group_type, $group_sql = '', $search_sql = '') {
 		global $wpdb;
 		$siteurl = get_option('siteurl');
 		
@@ -181,7 +190,7 @@ class WPSC_GridView_Hook_Filter {
 		return $output;
 	}
 	
-	function wpsc_gridview_upgrade_notice() {
+	public static function wpsc_gridview_upgrade_notice() {
 		session_start();
 		if (isset($_GET['hide-wpsc-gridview-upgrade-notice'])) 
 	    	$_SESSION['hide-wpsc-gridview-upgrade-notice'] = 1 ;
@@ -194,12 +203,12 @@ class WPSC_GridView_Hook_Filter {
 		}
 	}
 	
-	function plugin_extra_links($links, $plugin_name) {
+	public static function plugin_extra_links($links, $plugin_name) {
 		if ( $plugin_name != WPSC_GRID_VIEW_NAME) {
 			return $links;
 		}
 		$links[] = '<a href="http://docs.a3rev.com/user-guides/wp-e-commerce/wpec-grid-view/" target="_blank">'.__('Documentation', 'wpsc_gridview').'</a>';
-		$links[] = '<a href="http://a3rev.com/shop/wp-e-commerce-grid-view/#help_tab" target="_blank">'.__('Support', 'wpsc_gridview').'</a>';
+		$links[] = '<a href="http://wordpress.org/support/plugin/wp-e-commerce-grid-view/" target="_blank">'.__('Support', 'wpsc_gridview').'</a>';
 		return $links;
 	}
 }

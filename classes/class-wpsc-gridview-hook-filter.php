@@ -39,7 +39,7 @@ class WPSC_GridView_Hook_Filter
 		if ( $wpsc_gc_view_mode != 'grid' ) return;
 		if ( $items_per_row ) {
 			// roughly calculate the percentage, this will be corrected with JS later
-			$percentage = floor( 100 / $items_per_row ) - 7;
+			$percentage = floor( 100 / $items_per_row ) - 4;
 			$percentage = apply_filters( 'wpsc_grid_view_column_width', $percentage, $items_per_row ); // themes can override this calculation
 			?>
 			<style type="text/css">
@@ -47,9 +47,12 @@ class WPSC_GridView_Hook_Filter
 					width:<?php echo $percentage; ?>%;
 				}
 				.product_grid_display .item_image a {
-					display: block;
+					display: inline-block;
 					height: <?php echo get_option('product_image_height'); ?>px;
-					width: <?php echo get_option('product_image_width'); ?>px;
+					line-height: <?php echo (get_option('product_image_height') - 4); ?>px;
+					width: 100%;
+					text-align:center;
+					vertical-align: middle;
 				}
 			</style>
 			<?php

@@ -99,7 +99,7 @@ Support is available from the [Support tab](http://wordpress.org/support/plugin/
 
 == Changelog ==
 
-= 1.0.4.2 - 2014/05/08 -
+= 1.0.4.2 - 2014/05/08 =
 * Tweak - Tested 100% compatible with WordPress Version 3.9.0
 * Tweak - Tested 100% compatible with WP e-Commerce Version 3.8.14
 * Tweak - Full WP_DEBUG. All uncaught errors, warnings and exceptions fixed.

@@ -2,8 +2,8 @@
 Contributors: a3rev, A3 Revolution Software Development team
 Tags: WP e-Commerce Grid View, WP e-Commerce, WP e-Commerce Product Pages, e-commerce,  wordpress ecommerce
 Requires at least: 3.7
-Tested up to: 3.9.0
-Stable tag: 1.0.4.2
+Tested up to: 3.9.1
+Stable tag: 1.0.4.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -24,18 +24,23 @@ Install WP e-Commerce Grid View to showcase your products <strong>using a grid v
 
 WP e-Commerce Grid View has been tested on the default WordPress themes and it is tested 100% compatible with all browsers. 
 
+> = Premium Support = 
+>
+> The a3rev team does not provide support for the WP e-Commerce Grid View plugin on the WordPress.org forums. One on one developer support is available to people who have purchased a [WP e-Commerce Grid View Pro](http://a3rev.com/shop/wp-e-commerce-grid-view/) plugin Lifetime License. The Pro Version has several extra features that in addition to developer support might be well worth your investment!
+
 = Pro Version Upgrade =
 
 For those who want crystal clear product card images and a beautiful fluid mobile and tablet responsive display there is a PRO Version upgrade. 
-Pro Version Features:
 
-* [Free Full Pro Version trail](http://a3rev.com/shop/wp-e-commerce-grid-view/) - no credit card required. 
+Pro Version additional Features:
+
 * Fully mobile and tablet responsive Grid View display (providing of course that your theme is responsive)
 * Fluid Product Card display ( Grid view), for Products page (Shop), Product categories pages, product tag pages
 * Fluid Product Card Display ( Grid View ) for Categories pages created by shortcode.  
 * Adds Product Card (Grid View) product image Scaling to the WP e-Commerce plugin.  
 * Auto scales product feature image so they they also show perfectly on the Grid View Product cards. 
 * Images are scaled from the centre of the container for a perfect display everytime.
+* Adds Grid View to Category pages that are added via shortcode.
 * Instant access to the plugins a3rev support forum for priority developer support. 
 
 = Plugin Resources =
@@ -99,6 +104,10 @@ Support is available from the [Support tab](http://wordpress.org/support/plugin/
 
 == Changelog ==
 
+= 1.0.4.3 - 2014/06/17 =
+* Tweak - Tested 100% compatible with WordPress Version 3.9.1
+* Tweak - Tested 100% compatible with WP e-Commerce Version 3.8.14.1
+
 = 1.0.4.2 - 2014/05/08 =
 * Tweak - Tested 100% compatible with WordPress Version 3.9.0
 * Tweak - Tested 100% compatible with WP e-Commerce Version 3.8.14
@@ -137,6 +146,9 @@ Support is available from the [Support tab](http://wordpress.org/support/plugin/
 
 
 == Upgrade Notice ==
+
+= 1.0.4.3 =
+Upgrade now for full compatibility with WP e-Commerce Version 3.8.14.1 and WordPress Version 3.9.1
 
 = 1.0.4.2 =
 Update your plugin now for 100% compatibility with WP e-Commerce v 3.8.14 and WordPress 3.9.

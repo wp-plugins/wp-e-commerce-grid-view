@@ -2,8 +2,8 @@
 Contributors: a3rev, A3 Revolution Software Development team
 Tags: WP e-Commerce Grid View, WP e-Commerce, WP e-Commerce Product Pages, e-commerce,  wordpress ecommerce
 Requires at least: 3.7
-Tested up to: 3.9.1
-Stable tag: 1.0.4.3
+Tested up to: 4.0
+Stable tag: 1.0.4.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -104,6 +104,11 @@ Support is available from the [Support tab](http://wordpress.org/support/plugin/
 
 == Changelog ==
 
+= 1.0.4.4 - 2014/09/09 =
+* Tweak - Tested 100% compatible with WP e-Commerce 3.8.14.3
+* Tweak - Tested 100% compatible with WordPress Version 4.0
+* Tweak - Check session, if no then call session_start(); to not show the PHP Notice 'A session had already been started - ignoring session_start()'
+
 = 1.0.4.3 - 2014/06/17 =
 * Tweak - Tested 100% compatible with WordPress Version 3.9.1
 * Tweak - Tested 100% compatible with WP e-Commerce Version 3.8.14.1
@@ -146,6 +151,9 @@ Support is available from the [Support tab](http://wordpress.org/support/plugin/
 
 
 == Upgrade Notice ==
+
+= 1.0.4.4 =
+Upgrade your plugin now for full compatibility with WordPress Version 4.0 and WP e-Commerce Version 3.8.14.3
 
 = 1.0.4.3 =
 Upgrade now for full compatibility with WP e-Commerce Version 3.8.14.1 and WordPress Version 3.9.1

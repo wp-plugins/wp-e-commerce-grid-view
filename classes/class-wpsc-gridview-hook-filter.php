@@ -194,7 +194,7 @@ class WPSC_GridView_Hook_Filter
 	}
 	
 	public static function wpsc_gridview_upgrade_notice() {
-		session_start();
+		if ( !isset($_SESSION) ) { @session_start(); } 
 		if (isset($_GET['hide-wpsc-gridview-upgrade-notice'])) 
 	    	$_SESSION['hide-wpsc-gridview-upgrade-notice'] = 1 ;
 			

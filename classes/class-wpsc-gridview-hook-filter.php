@@ -194,14 +194,14 @@ class WPSC_GridView_Hook_Filter
 	}
 	
 	public static function wpsc_gridview_upgrade_notice() {
-		session_start();
+		if ( !isset($_SESSION) ) { @session_start(); } 
 		if (isset($_GET['hide-wpsc-gridview-upgrade-notice'])) 
 	    	$_SESSION['hide-wpsc-gridview-upgrade-notice'] = 1 ;
 			
 		if (!isset($_SESSION['hide-wpsc-gridview-upgrade-notice'])) {
 			$html = '<style>#wpsc_gridview_upgrade_notice { line-height:30px; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); padding:8px 18px 8px 6px;position:relative;}#wpsc_gridview_upgrade_notice a.hide{color:#FF0808;float:right;text-decoration:none;position:absolute;top:0;right:0;line-height:24px;padding:2px 8px;font-size:20px;text-align:center}</style>';
-		
-			$html .= '<div class="updated"><div id="wpsc_gridview_upgrade_notice"><a href="http://a3rev.com/shop/" target="_blank" style="float:left; margin-right:10px;"><img src="'.WPSC_GRID_VIEW_IMAGES_URL.'/logo_a3blue.png" /></a>'.__("Grid View Lite is active. We've detected that your product image thumbnails are not scaled to size. Upgrade to", 'wpsc_gridview').' <a target="_blank" href="http://a3rev.com/shop/wp-e-commerce-grid-view/">'.__(' Grid View PRO', 'wpsc_gridview').'</a> '.__('to fix that.', 'wpsc_gridview').' <a class="hide" href="'.add_query_arg('hide-wpsc-gridview-upgrade-notice', 'true').'">&times;</a></div></div>';
+			// fixed for 4.1.2
+			$html .= '<div class="updated"><div id="wpsc_gridview_upgrade_notice"><a href="http://a3rev.com/shop/" target="_blank" style="float:left; margin-right:10px;"><img src="'.WPSC_GRID_VIEW_IMAGES_URL.'/logo_a3blue.png" /></a>'.__("Grid View Lite is active. We've detected that your product image thumbnails are not scaled to size. Upgrade to", 'wpsc_gridview').' <a target="_blank" href="http://a3rev.com/shop/wp-e-commerce-grid-view/">'.__(' Grid View PRO', 'wpsc_gridview').'</a> '.__('to fix that.', 'wpsc_gridview').' <a class="hide" href="'.esc_url( add_query_arg('hide-wpsc-gridview-upgrade-notice', 'true') ).'">&times;</a></div></div>';
 			echo $html;	
 		}
 	}

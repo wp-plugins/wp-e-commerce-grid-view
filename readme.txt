@@ -1,38 +1,47 @@
 === WP e-Commerce Grid View  ===
 Contributors: a3rev, A3 Revolution Software Development team
 Tags: WP e-Commerce Grid View, WP e-Commerce, WP e-Commerce Product Pages, e-commerce,  wordpress ecommerce
-Requires at least: 3.5
-Tested up to: 3.8.0
-Stable tag: 1.0.4.1
+Requires at least: 3.7
+Tested up to: 4.2.0
+Stable tag: 1.0.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-WP e-Commerce Grid View Lite automatically activates the WP e-Commerce plugin Grid View feature. 
-  
+WP e-Commerce Grid View Lite automatically activates the WP e-Commerce plugin Grid View feature.
+
 == Description ==
 
 Install WP e-Commerce Grid View to showcase your products <strong>using a grid view layout</strong>. Grid view gives your front end user a greatly enhanced browsing and shopping experience on your site. The plugin automatically activates the native grid view functionality on WP e-Commerce when installed and activated.
 
-[youtube http://www.youtube.com/watch?v=ujEclHWN8vo]
+= Feature =
 
-* WP e-Commerce Grid View has no settings, just install and activate.
+* WP e-Commerce Grid View plugin has no settings, just install and activate.
 * Once activated it auto activates the 'locked' Grid View Feature on the WP e-Commerce plugin.
 * Once activated go to your WP admin dashboard > Store > Presentation tab and scroll down to the Product Page Settings and you will see in the dropdown that you can now select and set the Grid View settings.
 * WPEC Grid View always activates the Grid View Feature in WP e-Commerce.
 
 = Cross Browser Compatibility =
 
-WP e-Commerce Grid View has been tested on the default WordPress themes and it is tested 100% compatible with all browsers. 
+WP e-Commerce Grid View has been tested on the default WordPress themes and it is tested 100% compatible with all browsers.
+
+> = Premium Support =
+>
+> The a3rev team does not provide support for the WP e-Commerce Grid View plugin on the WordPress.org forums. One on one developer support is available to people who have purchased a [WP e-Commerce Grid View Pro](http://a3rev.com/shop/wp-e-commerce-grid-view/) plugin Lifetime License. The Pro Version has several extra features that in addition to developer support might be well worth your investment!
 
 = Pro Version Upgrade =
 
-For those who want crystal clear product card images and a beautiful mobile and tablet responsive display there is a PRO Version upgrade. Features include:
+For those who want crystal clear product card images and a beautiful fluid mobile and tablet responsive display there is a PRO Version upgrade.
 
-* Fully mobile and tablet responsive Grid View display (providing of course that your theme is responsive) 
-* WP e-Commerce does not support scaling Grid View product feature images to the grid view product card dimensions. It shows a cropped and often distorted part of the image and looks ugly. 
-* WP e-Commerce Grid View Pro fixes this for you by auto scales the products feature image so they they also show perfectly on the Grid View Product cards. 
-* It does not matter what size or dimensions the product feature image is - Grid View Pro automatically scales it to show the whole image inside the product card image container.
-* Images are scaled from the centre of the container for a perfect display everytime. 
+Pro Version additional Features:
+
+* Fully mobile and tablet responsive Grid View display (providing of course that your theme is responsive)
+* Fluid Product Card display ( Grid view), for Products page (Shop), Product categories pages, product tag pages
+* Fluid Product Card Display ( Grid View ) for Categories pages created by shortcode.
+* Adds Product Card (Grid View) product image Scaling to the WP e-Commerce plugin.
+* Auto scales product feature image so they they also show perfectly on the Grid View Product cards.
+* Images are scaled from the centre of the container for a perfect display everytime.
+* Adds Grid View to Category pages that are added via shortcode.
+* Instant access to the plugins a3rev support forum for priority developer support.
 
 = Plugin Resources =
 
@@ -47,15 +56,15 @@ Find detailed step-by-step Grid View set up instructions in the plugins document
 
 = Minimum Requirements =
 
-* WordPress 3.5 or greater
+* WordPress 3.7 or greater
 * PHP version 5.2.4 or greater
 * MySQL version 5.0 or greater
- 
+
 = Automatic installation =
 
-Automatic installation is the easiest option as WordPress handles the file transfers itself and you don't even need to leave your web browser. To do an automatic install of WP e-Commerce Grid View, log in to your WordPress admin panel, navigate to the Plugins menu and click Add New. 
+Automatic installation is the easiest option as WordPress handles the file transfers itself and you don't even need to leave your web browser. To do an automatic install of WP e-Commerce Grid View, log in to your WordPress admin panel, navigate to the Plugins menu and click Add New.
 
-In the search field type "WP e-Commerce Grid View" and click Search Plugins. Once you have found our plugin you can install it by simply clicking Install Now. After clicking that link you will be asked if you are sure you want to install the plugin. Click yes and WordPress will automatically complete the installation. 
+In the search field type "WP e-Commerce Grid View" and click Search Plugins. Once you have found our plugin you can install it by simply clicking Install Now. After clicking that link you will be asked if you are sure you want to install the plugin. Click yes and WordPress will automatically complete the installation.
 
 = Manual installation =
 
@@ -70,7 +79,7 @@ The manual installation method involves downloading our plugin and uploading it 
 
 1. WP e-Commerce Product Page default view v's the same presentation in WP e-Commerce Grid View
 2. WP c-Commerce grid view has no settings.
- 
+
 == Usage ==
 
 1. Install and activate the plugin
@@ -78,7 +87,7 @@ The manual installation method involves downloading our plugin and uploading it 
 2. Go to WP admin dashboard > Settings > Store > Presentation tab > Product Page Settings
 
 3. Select Grid View and your Grid View Settings.
- 
+
 5. Save your changes.
 
 6. Have fun.
@@ -88,12 +97,32 @@ The manual installation method involves downloading our plugin and uploading it 
 = When can I use this plugin? =
 
 You can use this plugin only when you have installed the WP e-Commerce plugin.
- 
+
 == Support ==
 
-Support is available from the [Support tab](http://wordpress.org/support/plugin/wp-e-commerce-grid-view/) on the Plugisn wordpress.org page.
+Support is available from the [Support tab](http://wordpress.org/support/plugin/wp-e-commerce-grid-view/) on the Plugins wordpress.org page.
 
 == Changelog ==
+
+= 1.0.5 - 2015/04/24 =
+* Tweak - Tested and Tweaked for full compatibility with WordPress Version 4.2.0
+* Tweak - Tested and Tweaked for full compatibility with WP e-Commerce Version 3.9.3
+* Tweak - Changed <code>WP_CONTENT_DIR</code> to <code>WP_PLUGIN_DIR</code>. When admin sets a custom WordPress file structure then it can get the correct path of plugin
+* Fix - Move the output of <code>add_query_arg()</code> into <code>esc_url()</code> function to fix the XSS vulnerability identified in WordPress 4.1.2 security upgrade
+
+= 1.0.4.4 - 2014/09/09 =
+* Tweak - Tested 100% compatible with WP e-Commerce 3.8.14.3
+* Tweak - Tested 100% compatible with WordPress Version 4.0
+* Tweak - Check session, if no then call session_start(); to not show the PHP Notice 'A session had already been started - ignoring session_start()'
+
+= 1.0.4.3 - 2014/06/17 =
+* Tweak - Tested 100% compatible with WordPress Version 3.9.1
+* Tweak - Tested 100% compatible with WP e-Commerce Version 3.8.14.1
+
+= 1.0.4.2 - 2014/05/08 =
+* Tweak - Tested 100% compatible with WordPress Version 3.9.0
+* Tweak - Tested 100% compatible with WP e-Commerce Version 3.8.14
+* Tweak - Full WP_DEBUG. All uncaught errors, warnings and exceptions fixed.
 
 = 1.0.4.1 - 2013/12/24 =
 * Tweak - Updated Grid View product card content display when admin set to show 4 to 6 products per row.
@@ -102,8 +131,8 @@ Support is available from the [Support tab](http://wordpress.org/support/plugin/
 * Tweak - Tested 100% compatible with WP e-Commerce Version 3.8.13
 * Tweak - Ran WP_DEBUG All Uncaught exceptions errors and warnings fixed.
 
-= 1.0.4 - 2013/08/13 =	 
-* Tweak - Now just include grid view style when viewing shop page or category page.   
+= 1.0.4 - 2013/08/13 =
+* Tweak - Now just include grid view style when viewing shop page or category page.
 * Tweak - Tested for full compatibility with WordPress v3.6.0
 * Tweak - Added PHP Public Static to functions in Class. Done so that PHP Public Static warnings don't show in DE_BUG mode.
 * Tweak - Updated the plugins support links to the plugins WordPress support forum.
@@ -121,13 +150,25 @@ Support is available from the [Support tab](http://wordpress.org/support/plugin/
 * Tweak - Created plugin documentation on the a3rev wiki. Includes detailed tutorial on configuring WP e-Commerce grid view settings.
 * Tweak - Pro version now supports scaling Category thumbnail images
 * Tweak - Updated wordpress.org description with more plugin information.
-* Tweak - Created Github repository for Pro Version files. 
+* Tweak - Created Github repository for Pro Version files.
 
 = 1.0 - 2012/07/23 =
 * Initial release.
 
 
 == Upgrade Notice ==
+
+= 1.0.5 =
+Major Maintenance Update. Code tweaks and a security bug fix for full compatibility with WordPress Version 4.2.0 and WP e-Commerce Version 3.9.3
+
+= 1.0.4.4 =
+Upgrade your plugin now for full compatibility with WordPress Version 4.0 and WP e-Commerce Version 3.8.14.3
+
+= 1.0.4.3 =
+Upgrade now for full compatibility with WP e-Commerce Version 3.8.14.1 and WordPress Version 3.9.1
+
+= 1.0.4.2 =
+Update your plugin now for 100% compatibility with WP e-Commerce v 3.8.14 and WordPress 3.9.
 
 = 1.0.4.1 =
 Upgrade now for enhanced product card display via 2 tweaks plus full compatibility with WordPress version 3.8.0 and WP e-Commerce Version 3.8.13 and backwards.

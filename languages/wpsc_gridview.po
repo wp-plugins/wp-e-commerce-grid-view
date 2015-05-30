@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPEC Grid View Lite\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-09 16:15+0700\n"
-"PO-Revision-Date: 2013-01-09 16:15+0700\n"
+"POT-Creation-Date: 2013-08-13 18:01+0700\n"
+"PO-Revision-Date: 2013-08-13 18:01+0700\n"
 "Last-Translator: Nguyen Tuan <mr.nguyencongtuan@gmail.com>\n"
 "Language-Team: a3rev\n"
 "MIME-Version: 1.0\n"
@@ -13,23 +13,23 @@ msgstr ""
 "X-Poedit-Basepath: ../\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: classes/class-wpsc-gridview-hook-filter.php:192
+#: classes/class-wpsc-gridview-hook-filter.php:201
 msgid "Grid View Lite is active. We've detected that your product image thumbnails are not scaled to size. Upgrade to"
 msgstr ""
 
-#: classes/class-wpsc-gridview-hook-filter.php:192
+#: classes/class-wpsc-gridview-hook-filter.php:201
 msgid " Grid View PRO"
 msgstr ""
 
-#: classes/class-wpsc-gridview-hook-filter.php:192
+#: classes/class-wpsc-gridview-hook-filter.php:201
 msgid "to fix that."
 msgstr ""
 
-#: classes/class-wpsc-gridview-hook-filter.php:201
+#: classes/class-wpsc-gridview-hook-filter.php:210
 msgid "Documentation"
 msgstr ""
 
-#: classes/class-wpsc-gridview-hook-filter.php:202
+#: classes/class-wpsc-gridview-hook-filter.php:211
 msgid "Support"
 msgstr ""
 

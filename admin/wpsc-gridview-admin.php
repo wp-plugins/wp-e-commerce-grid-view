@@ -1,6 +1,6 @@
 <?php
 function wpsc_gridview_install(){
-	update_option('a3rev_wpsc_gridview_lite_version', '1.0.5');
+	update_option('a3rev_wpsc_gridview_lite_version', '1.0.6');
 	
 	update_option('a3rev_wpsc_gridview_just_installed', true);
 }
@@ -32,7 +32,7 @@ add_action( 'wp_head', array('WPSC_GridView_Hook_Filter','wpsc_grid_custom_style
 add_action('plugins_loaded', 'a3_wpsc_gridview_upgrade_plugin');
 function a3_wpsc_gridview_upgrade_plugin () {
 	
-	update_option('a3rev_wpsc_gridview_lite_version', '1.0.5');
+	update_option('a3rev_wpsc_gridview_lite_version', '1.0.6');
 
 }
 

@@ -2,8 +2,8 @@
 Contributors: a3rev, A3 Revolution Software Development team
 Tags: WP e-Commerce Grid View, WP e-Commerce, WP e-Commerce Product Pages, e-commerce,  wordpress ecommerce
 Requires at least: 3.7
-Tested up to: 4.2.0
-Stable tag: 1.0.5
+Tested up to: 4.2.2
+Stable tag: 1.0.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -104,6 +104,9 @@ Support is available from the [Support tab](http://wordpress.org/support/plugin/
 
 == Changelog ==
 
+= 1.0.6 - 2015/05/30 =
+* Tweak - Tested and Tweaked for full compatibility with WordPress Version 4.2.2
+
 = 1.0.5 - 2015/04/24 =
 * Tweak - Tested and Tweaked for full compatibility with WordPress Version 4.2.0
 * Tweak - Tested and Tweaked for full compatibility with WP e-Commerce Version 3.9.3
@@ -157,6 +160,9 @@ Support is available from the [Support tab](http://wordpress.org/support/plugin/
 
 
 == Upgrade Notice ==
+
+= 1.0.6 =
+Upgrade your plugin now for full compatibility with WordPress Version 4.2.2
 
 = 1.0.5 =
 Major Maintenance Update. Code tweaks and a security bug fix for full compatibility with WordPress Version 4.2.0 and WP e-Commerce Version 3.9.3
